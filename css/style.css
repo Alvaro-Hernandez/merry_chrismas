@@ -118,3 +118,19 @@ body{
         transform: translateY(100vh);
     }
 }
+
+@media screen and (max-width: 480px) {
+    .container .moon::before{
+        background-size: 350px;
+    }
+
+    .container .moon::after{
+        font-size: 3em;
+        inset: -70px -140px;
+    }
+
+    .create{
+        font-size: 1em;
+        margin-left: 20%;
+    }
+}
